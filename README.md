@@ -29,9 +29,9 @@ The results below show the changes in the summary data by removing the scores fo
 ### District summary results
 Analysis showed **no significant change in district-wide data** by removing the scores of THS 9th graders. The district summary is shown in Picture 1.1 below.
 
-Picture 1.1 Overall District Test Performance
-XXXX Insert district summary here XXXXX
+**Picture 1.1:** Overall District Test Performance
 
+![Overall District Test Performance](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Removed/District_Summary_Data_Frame_wo_THS9.png)
 
 ### Per school summary results
 Analysis showed **no change to school summary data outside of the data for THS**. The original school summary is shown in Picture 2.1 and updated school summary is shown in Picture 2.2.
@@ -43,14 +43,17 @@ The highlighted data shows the THS with small changes to the overall scores and 
     - Math passing percentage decreased by 0.08%
     - Reading passing percentage decreased by 0.29%
     - Overall passing percentage decreased by 0.32%
-    
 
-Picture 2.1 School test performance **before** THS 9th grade data removal
+**Picture 2.1:** School test performance **before** THS 9th grade data removal
+
 XXXXX Insert School_Summary_Data_Frame_og.png  XXXXXX
+![School test performance before THS 9th grade data removal](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Kept/School_Summary_Data_Frame_og.png)
 
 
-Picture 2.2 School test performance **after** THS 9th grade data removal
-XXXXX School_Summary_Data_Frame_wo_THS9.png  XXXXXX
+**Picture 2.2:** School test performance **after** THS 9th grade data removal
+
+![School test performance after THS 9th grade data removal](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Removed/School_Summary_Data_Frame_wo_THS9.png)
+
 
 ### Thomas HS relative change results
 Analysis shows the following changes to THS's students scores and passing metrics relative to other schools in the district after removing the 9th graders' scores from the data set shown in Picture 2.2:
@@ -68,41 +71,46 @@ Replacing THS 9th grade test scores affected the performance summaries in the fo
     a. Average math and reading scores by grade by school (See Picture 4.1 and 4.2)
         - No effect on scores other than having absence of data (NaN) for Thomas HS in the 9th grade column
 
-Picture 4.1 Average reading score by grade by school
-XXXX Avg_reading_scores_by_grade_by_school_wo_THS9.png XXXXX
+    **Picture 4.1:** Average reading score by grade by school
 
-Picture 4.2 Average math score by grade by school
-XXXX Avg_math_scores_by_grade_by_school_wo_THS9.png XXXXX
+    ![Average reading score by grade by school](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Removed/Avg_reading_scores_by_grade_by_school_wo_THS9.png)
+
+    **Picture 4.2:** Average math score by grade by school
+
+    ![Average math score by grade by school](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Removed/Avg_math_score_by_grade_by_school_wo_THS9.png)
 
     b. Scores by school spending (See Picture 4.3 and 4.4)
         - Insignificant effect for "$630-$644" category
 
-Picture 4.3 Student test performance by per student spending **before** THS 9th grade data removal
-XXXXX Avg_scores_by_school_spending_per_student_og.png XXXXXX
+    **Picture 4.3:** Student test performance by per student spending **before** THS 9th grade data removal
 
-Picture 4.4 Student test performance by per student spending **after** THS 9th grade data removal
-XXXXXXX Avg_scores_by_school_spending_per_student_wo_THS9 XXXXXXX
+    ![Student test performance by per student spending before THS 9th grade data removal](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Kept/Avg_scores_by_school_spending_per_student_og.png)
 
+    **Picture 4.4:** Student test performance by per student spending **after** THS 9th grade data removal
+
+    ![Student test performance by per student spending after THS 9th grade data removal](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Removed/Avg_scores_by_school_spending_per_student_wo_THS9.png)
 
     c. Scores by school size (see Pictures 4.5 and 4.6)
         - Insignificant effect for "Medium" size category
 
-Picture 4.5 Student test performance by school size **before** THS 9th grade data removal
-XXXXX Avg_scores_by_school_size_og.png XXXXXX
+    Picture 4.5 Student test performance by school size **before** THS 9th grade data removal
 
-Picture 4.6 Student test performance by school size **after** THS 9th grade data removal
-XXXXX Avg_scores_by_school_size_wo_THS9.png XXXX
+    ![Student test performance by school size before THS 9th grade data removal](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Kept/Avg_scores_by_school_size_og.png)
+
+    Picture 4.6 Student test performance by school size **after** THS 9th grade data removal
+
+    ![Student test performance by school size after THS 9th grade data removal](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Removed/Avg_scores_by_school_size_wo_THS9.png)
 
     d. Scores by school type (see pictures 4.7 and 4.8)
         - Insignificant effect for "Charter" school category
 
-Picture 4.7 Student test performance by school type **before** THS 9th grade data removal
-XXXXX Avg_scores_by_school_type_og.png XXXXXX
+    Picture 4.7 Student test performance by school type **before** THS 9th grade data removal
 
-Picture 4.8 Student test performance by school type **after** THS 9th grade data removal
-XXXXX Avg_scores_by_school_type_wo_THS9.png XXXX
+    ![Student test performance by school type before THS 9th grade data removal](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Kept/Avg_scores_by_school_type_og.png)
 
+    Picture 4.8 Student test performance by school type **after** THS 9th grade data removal
 
+    ![Student test performance by school type after THS 9th grade data removal](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Removed/Avg_scores_by_school_type_wo_THS9.png)
 
 ## Summary
 THS 9th graders test scores changed the overall THS test results minimally because their scores may not have been far off of the school averages for math and reading. The reading scores changed the most by the removal of the 9th grade THS data but not enough to significantly change district-wide results for any given category (size, type, funding level).
