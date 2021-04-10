@@ -10,9 +10,13 @@ The district has requested an additional look into the standardized testing data
 2. Per School Summary
 3. How removing 9th grade results from data affects Thomas High School's passing metrics relative to the other schools
 4. How removing 9th grade results from data affects district summary results based on:
+
     a. Math and reading scores by grade by school
+    
     b. Math and reading scores by school spending
+    
     c. Math and reading scores by school size
+    
     d. Math and reading scores by school type
 
 ## Resources
@@ -68,7 +72,7 @@ Replacing THS 9th grade test scores affected the performance summaries in the fo
     a. Average math and reading scores by grade by school (See Picture 4.1 and 4.2)
         - No effect on scores other than having absence of data (NaN) for Thomas HS in the 9th grade column
 
-    **Picture 4.1:** Average reading score by grade by school
+**Picture 4.1:** Average reading score by grade by school
 
 ![Average reading score by grade by school](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Removed/Avg_reading_scores_by_grade_by_school_wo_THS9.png)
 
@@ -90,22 +94,22 @@ Replacing THS 9th grade test scores affected the performance summaries in the fo
     c. Scores by school size (see Pictures 4.5 and 4.6)
         - Insignificant effect for "Medium" size category
 
-Picture 4.5 Student test performance by school size **before** THS 9th grade data removal
+**Picture 4.5:** Student test performance by school size **before** THS 9th grade data removal
 
 ![Student test performance by school size before THS 9th grade data removal](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Kept/Avg_scores_by_school_size_og.png)
 
-Picture 4.6 Student test performance by school size **after** THS 9th grade data removal
+**Picture 4.6:** Student test performance by school size **after** THS 9th grade data removal
 
 ![Student test performance by school size after THS 9th grade data removal](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Removed/Avg_scores_by_school_size_wo_THS9.png)
 
     d. Scores by school type (see pictures 4.7 and 4.8)
         - Insignificant effect for "Charter" school category
 
-Picture 4.7 Student test performance by school type **before** THS 9th grade data removal
+**Picture 4.7:** Student test performance by school type **before** THS 9th grade data removal
 
 ![Student test performance by school type before THS 9th grade data removal](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Kept/Avg_scores_by_school_type_og.png)
 
-Picture 4.8 Student test performance by school type **after** THS 9th grade data removal
+**Picture 4.8:** Student test performance by school type **after** THS 9th grade data removal
 
 ![Student test performance by school type after THS 9th grade data removal](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Removed/Avg_scores_by_school_type_wo_THS9.png)
 
@@ -113,7 +117,6 @@ Picture 4.8 Student test performance by school type **after** THS 9th grade data
 THS 9th graders test scores changed the overall THS test results minimally because their scores may not have been far off of the school averages for math and reading. The reading scores changed the most by the removal of the 9th grade THS data but not enough to significantly change district-wide results for any given category (size, type, funding level).
 
 The heaviest effect the removal of the scores had on the new data was the change in the rankings for THS relative to the performance of other schools in the district. Specifically in the overall reading passing percentage and average math score; both of which decreased by 2 spots as a result of the changing data. However, the change did not affect the rankings for math passing percentage, overall passing percentage, and average reading score.
-
 
 ### Limitations of current data set
 To further our analysis and understand if academic dishonesty did occur, we would have to analyze the scores across multpile years of data to show if the current 9th grade class performance is an outlier compared to the students' previous testing results and historical data for testing results for 9th graders at THS and across the district.
