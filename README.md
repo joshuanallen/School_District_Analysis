@@ -42,11 +42,11 @@ Analysis showed **no change to school summary data outside of the data for THS**
 
 The highlighted data shows the THS with small changes to the overall scores and passing percentages. The changes are outlined below:
 
-    - Average math score went down by 0.07 points
-    - Average reading score increased by 0.05 points
-    - Math passing percentage decreased by 0.08%
-    - Reading passing percentage decreased by 0.29%
-    - Overall passing percentage decreased by 0.32%
+- Average math score went down by 0.07 points
+- Average reading score increased by 0.05 points
+- Math passing percentage decreased by 0.08%
+- Reading passing percentage decreased by 0.29%
+- Overall passing percentage decreased by 0.32%
 
 **Picture 2.1:** School test performance **before** THS 9th grade data removal
 
@@ -59,18 +59,18 @@ The highlighted data shows the THS with small changes to the overall scores and 
 ### Thomas HS relative change results
 Analysis shows the following changes to THS's students scores and passing metrics relative to other schools in the district after removing the 9th graders' scores from the data set shown in Picture 2.2:
 
-    - THS retains its 2nd school ranking by overall passing percentage despite a 0.32% drop
-    - THS retains its 7th school ranking by overall math passing percentage despite a 0.08% drop
-    - THS drops from its 1st to 3rd school ranking by overall reading passing percentage because of its 0.29% drop (falling behind Griffin and Cabrera HS)
-    - THS retains its 5th school ranking by average reading score despite a 0.05 point increase
-    - THS drops from its 4th to 6th school ranking by average math score despite a 0.07 point decrease
+- THS retains its 2nd school ranking by overall passing percentage despite a 0.32% drop
+- THS retains its 7th school ranking by overall math passing percentage despite a 0.08% drop
+- THS drops from its 1st to 3rd school ranking by overall reading passing percentage because of its 0.29% drop (falling behind Griffin and Cabrera HS)
+- THS retains its 5th school ranking by average reading score despite a 0.05 point increase
+- THS drops from its 4th to 6th school ranking by average math score despite a 0.07 point decrease
 
 
 ### Effect on district slicing results
 Replacing THS 9th grade test scores affected the performance summaries in the following ways:
 
-    a. Average math and reading scores by grade by school (See Picture 4.1 and 4.2)
-        - No effect on scores other than having absence of data (NaN) for Thomas HS in the 9th grade column
+a. Average math and reading scores by grade by school (See Picture 4.1 and 4.2)
+    - No effect on scores other than having absence of data (NaN) for Thomas HS in the 9th grade column
 
 **Picture 4.1:** Average reading score by grade by school
 
@@ -80,8 +80,8 @@ Replacing THS 9th grade test scores affected the performance summaries in the fo
 
 ![Average math score by grade by school](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Removed/Avg_math_score_by_grade_by_school_wo_THS9.png)
 
-    b. Scores by school spending (See Picture 4.3 and 4.4)
-        - Insignificant effect for "$630-$644" category
+b. Scores by school spending (See Picture 4.3 and 4.4)
+    - Insignificant effect for "$630-$644" category
 
 **Picture 4.3:** Student test performance by per student spending **before** THS 9th grade data removal
 
@@ -91,8 +91,8 @@ Replacing THS 9th grade test scores affected the performance summaries in the fo
 
 ![Student test performance by per student spending after THS 9th grade data removal](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Removed/Avg_scores_by_school_spending_per_student_wo_THS9.png)
 
-    c. Scores by school size (see Pictures 4.5 and 4.6)
-        - Insignificant effect for "Medium" size category
+c. Scores by school size (see Pictures 4.5 and 4.6)
+    - Insignificant effect for "Medium" size category
 
 **Picture 4.5:** Student test performance by school size **before** THS 9th grade data removal
 
@@ -102,8 +102,8 @@ Replacing THS 9th grade test scores affected the performance summaries in the fo
 
 ![Student test performance by school size after THS 9th grade data removal](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Removed/Avg_scores_by_school_size_wo_THS9.png)
 
-    d. Scores by school type (see pictures 4.7 and 4.8)
-        - Insignificant effect for "Charter" school category
+d. Scores by school type (see pictures 4.7 and 4.8)
+    - Insignificant effect for "Charter" school category
 
 **Picture 4.7:** Student test performance by school type **before** THS 9th grade data removal
 
