@@ -2,10 +2,11 @@
 Module 4 coursework
 
 ## Project Overview
-School District has requested an additional analysis of their 39,170 students' state-testing results to look into evidence of academic dishonesty. District has provided us with standardized testing results data for each student in the district including student ID, name, gender, grade, and high school they attend.
+School District has requested an additional analysis of their 39,170 students' state-testing results to look into evidence of academic dishonesty. District has provided us with standardized testing results data for each student in the district including student ID, name, gender, grade, and high school they attend. Additionally, the district has provided data about each school including number of students, type of school (charter or district), and school budget.
 
 ### Purpose of analysis
 The district has requested an additional look into the standardized testing data in response to school board's belief there was academic dishonesty related to the math and reading test scores for the 9th grade class at Thomas High School (THS). The purpose of this analysis to remove the testing results for the 9th grade students at THS and report the differences in the following data summaries:
+
 1. District Summary
 2. Per School Summary
 3. How removing 9th grade results from data affects Thomas High School's passing metrics relative to the other schools
@@ -82,7 +83,8 @@ a. Average math and reading scores by grade by school (See Picture 4.1 and 4.2)
 
 
 b. Scores by school spending (See Picture 4.3 and 4.4)
-    - Insignificant effect for "$630-$644" category
+
+- Insignificant effect for "$630-$644" category
 
 **Picture 4.3:** Student test performance by per student spending **before** THS 9th grade data removal
 
@@ -94,7 +96,8 @@ b. Scores by school spending (See Picture 4.3 and 4.4)
 
 
 c. Scores by school size (see Pictures 4.5 and 4.6)
-    - Insignificant effect for "Medium" size category
+
+- Insignificant effect for "Medium" size category
 
 **Picture 4.5:** Student test performance by school size **before** THS 9th grade data removal
 
@@ -106,7 +109,8 @@ c. Scores by school size (see Pictures 4.5 and 4.6)
 
 
 d. Scores by school type (see pictures 4.7 and 4.8)
-    - Insignificant effect for "Charter" school category
+
+- Insignificant effect for "Charter" school category
 
 **Picture 4.7:** Student test performance by school type **before** THS 9th grade data removal
 
@@ -121,5 +125,8 @@ THS 9th graders test scores changed the overall THS test results minimally becau
 
 The heaviest effect the removal of the scores had on the new data was the change in the rankings for THS relative to the performance of other schools in the district. Specifically in the overall reading passing percentage and average math score; both of which decreased by 2 spots as a result of the changing data. However, the change did not affect the rankings for math passing percentage, overall passing percentage, and average reading score.
 
+### Conclusion
+While there may be evidenvce of academic dishonesty from the district, there is no evidence that it affected the testing metrics by which the schools are evaulated. The changes in results were minor and within rounding error for each category. The only change was to the school rankings within the district.
+
 ### Limitations of current data set
-To further our analysis and understand if academic dishonesty did occur, we would have to analyze the scores across multpile years of data to show if the current 9th grade class performance is an outlier compared to the students' previous testing results and historical data for testing results for 9th graders at THS and across the district.
+To further our analysis and understand if academic dishonesty did occur, we would have to analyze the scores across multiple years of data to show if the current 9th grade class performance is an outlier compared to the students' previous testing results and historical testing data for the 9th graders at THS and across the district.
