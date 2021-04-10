@@ -80,6 +80,7 @@ a. Average math and reading scores by grade by school (See Picture 4.1 and 4.2)
 
 ![Average math score by grade by school](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Removed/Avg_math_score_by_grade_by_school_wo_THS9.png)
 
+
 b. Scores by school spending (See Picture 4.3 and 4.4)
     - Insignificant effect for "$630-$644" category
 
@@ -91,6 +92,7 @@ b. Scores by school spending (See Picture 4.3 and 4.4)
 
 ![Student test performance by per student spending after THS 9th grade data removal](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Removed/Avg_scores_by_school_spending_per_student_wo_THS9.png)
 
+
 c. Scores by school size (see Pictures 4.5 and 4.6)
     - Insignificant effect for "Medium" size category
 
@@ -101,6 +103,7 @@ c. Scores by school size (see Pictures 4.5 and 4.6)
 **Picture 4.6:** Student test performance by school size **after** THS 9th grade data removal
 
 ![Student test performance by school size after THS 9th grade data removal](https://github.com/joshuanallen/School_District_Analysis/blob/9aa3a2212ee98ffd144fc92617635652a77c3e35/Images/THS_9th_Removed/Avg_scores_by_school_size_wo_THS9.png)
+
 
 d. Scores by school type (see pictures 4.7 and 4.8)
     - Insignificant effect for "Charter" school category
