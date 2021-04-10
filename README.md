@@ -71,7 +71,8 @@ Analysis shows the following changes to THS's students scores and passing metric
 Replacing THS 9th grade test scores affected the performance summaries in the following ways:
 
 a. Average math and reading scores by grade by school (See Picture 4.1 and 4.2)
-    - No effect on scores other than having absence of data (NaN) for Thomas HS in the 9th grade column
+
+- No effect on scores other than having absence of data (NaN) for Thomas HS in the 9th grade column
 
 **Picture 4.1:** Average reading score by grade by school
 
